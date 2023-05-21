@@ -1,47 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-  <title>Calculadora de Valor de Venda</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Valor de Venda</title>
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
   <div class="container">
-    <h1 class="title">Calculadora de Valor de Venda</h1>
+    <h1 class="title">Calculadora de e-commerce</h1>
 
     <div class="calculator">
       <div class="input-group">
         <label for="valor_custo">Valor de Custo:</label>
-        <input type="number" id="valor_custo">
+        <input type="number" id="valor_custo" placeholder="Valor em R$">
       </div>
 
       <div class="input-group">
         <label for="margem_lucro">Margem de Lucro:</label>
-        <input type="number" id="margem_lucro">
+        <input type="number" id="margem_lucro" placeholder="Valor em %. Ex: 30">
       </div>
 
       <div class="input-group">
-        <label for="nota_fiscal">Porcentagem da Nota Fiscal:</label>
-        <input type="number" id="nota_fiscal">
+        <label for="nota_fiscal">Nota Fiscal:</label>
+        <input type="number" id="nota_fiscal"placeholder="Valor em %. Ex: 30">
       </div>
 
       <div class="input-group">
         <label for="comissao_loja">Comissão da Loja:</label>
-        <input type="number" id="comissao_loja">
+        <input type="number" id="comissao_loja" placeholder="Valor em %. Ex: 30">
       </div>
 
       <div class="input-group">
-        <label for="taxa_maquininha">Taxa da Maquininha:</label>
-        <input type="number" id="taxa_maquininha">
+        <label for="taxa_maquininha">Taxa de Maquininha:</label>
+        <input type="number" id="taxa_maquininha"placeholder="Valor em %. Ex: 30">
       </div>
 
       <div class="input-group">
         <label for="frete_fixo">Valor do Frete:</label>
-        <input type="number" id="frete_fixo">
+        <input type="number" id="frete_fixo"placeholder="Valor em R$">
       </div>
 
       <div class="input-group">
         <label for="custo_fixo">Custo Fixo por Venda:</label>
-        <input type="number" id="custo_fixo">
+        <input type="number" id="custo_fixo"placeholder="Valor em R$">
       </div>
 
       <div class="button-container">
@@ -54,7 +57,7 @@
       </div>
 
       <div class="result">
-        <label>Lucro Líquido:</label>
+        <label>Lucro Líquido Esperado:</label>
         <span id="lucro_liquido"></span>
       </div>
     </div>
