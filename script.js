@@ -1,11 +1,11 @@
 // Recuperar as variáveis do armazenamento local
-var valorCusto = parseFloat(localStorage.getItem('valorCusto')) || "100,00";
-var margemLucro = parseFloat(localStorage.getItem('margemLucro')) || "0.3";
-var notaFiscal = parseFloat(localStorage.getItem('notaFiscal')) || "0.1";
-var comissaoLoja = parseFloat(localStorage.getItem('comissaoLoja')) || "0.19";
-var taxaMaquininha = parseFloat(localStorage.getItem('taxaMaquininha')) || "0.02";
-var freteFixo = parseFloat(localStorage.getItem('freteFixo')) || "18,45";
-var custoFixo = parseFloat(localStorage.getItem('custoFixo')) || "1,50";
+var valorCusto = parseFloat(localStorage.getItem('valorCusto')) || "";
+var margemLucro = parseFloat(localStorage.getItem('margemLucro')) || "";
+var notaFiscal = parseFloat(localStorage.getItem('notaFiscal')) || "";
+var comissaoLoja = parseFloat(localStorage.getItem('comissaoLoja')) || "";
+var taxaMaquininha = parseFloat(localStorage.getItem('taxaMaquininha')) || "";
+var freteFixo = parseFloat(localStorage.getItem('freteFixo')) || "";
+var custoFixo = parseFloat(localStorage.getItem('custoFixo')) || "";
 
 // Preencher os campos com as informações recuperadas
 document.getElementById('valor_custo').value = valorCusto;
