@@ -1,1 +1,60 @@
-var _0x3e778e=_0x2599;function _0xa428(){var _0x5769e9=['2956856AcQhKf','taxa_maquininha','freteFixo','frete_fixo','addEventListener','textContent','value','taxaMaquininha','13602yIcKVN','margem_lucro','valor_venda','1345AgkrDK','custo_fixo','valorCusto','comissaoLoja','margemLucro','18188BERlEV','getItem','R$\x20','custoFixo','60EUgNbM','round','click','nota_fiscal','setItem','getElementById','toFixed','330900uFnlHK','4399948aVlZId','2585128EJAUmN','794808WQQVwz','comissao_loja'];_0xa428=function(){return _0x5769e9;};return _0xa428();}function _0x2599(_0x499f83,_0x5deb51){var _0xa42862=_0xa428();return _0x2599=function(_0x259970,_0x5ef1dd){_0x259970=_0x259970-0x147;var _0x1ff18c=_0xa42862[_0x259970];return _0x1ff18c;},_0x2599(_0x499f83,_0x5deb51);}(function(_0x49e296,_0x42e63d){var _0x278f74=_0x2599,_0x2a99e3=_0x49e296();while(!![]){try{var _0x42d5c2=parseInt(_0x278f74(0x166))/0x1*(parseInt(_0x278f74(0x162))/0x2)+parseInt(_0x278f74(0x14d))/0x3+parseInt(_0x278f74(0x14f))/0x4+-parseInt(_0x278f74(0x15d))/0x5*(parseInt(_0x278f74(0x15a))/0x6)+-parseInt(_0x278f74(0x14e))/0x7+parseInt(_0x278f74(0x152))/0x8+-parseInt(_0x278f74(0x150))/0x9;if(_0x42d5c2===_0x42e63d)break;else _0x2a99e3['push'](_0x2a99e3['shift']());}catch(_0x1ebb87){_0x2a99e3['push'](_0x2a99e3['shift']());}}}(_0xa428,0x5442a));var valorCusto=parseFloat(localStorage[_0x3e778e(0x163)](_0x3e778e(0x15f)))||0x0,margemLucro=parseFloat(localStorage[_0x3e778e(0x163)](_0x3e778e(0x161)))||0x0,notaFiscal=parseFloat(localStorage[_0x3e778e(0x163)]('notaFiscal'))||0x0,comissaoLoja=parseFloat(localStorage['getItem'](_0x3e778e(0x160)))||0x0,taxaMaquininha=parseFloat(localStorage[_0x3e778e(0x163)]('taxaMaquininha'))||0x0,freteFixo=parseFloat(localStorage[_0x3e778e(0x163)]('freteFixo'))||0x0,custoFixo=parseFloat(localStorage[_0x3e778e(0x163)](_0x3e778e(0x165)))||0x0;document[_0x3e778e(0x14b)]('valor_custo')[_0x3e778e(0x158)]=valorCusto,document[_0x3e778e(0x14b)](_0x3e778e(0x15b))[_0x3e778e(0x158)]=margemLucro*0x64,document[_0x3e778e(0x14b)](_0x3e778e(0x149))[_0x3e778e(0x158)]=notaFiscal*0x64,document['getElementById'](_0x3e778e(0x151))[_0x3e778e(0x158)]=comissaoLoja*0x64,document[_0x3e778e(0x14b)](_0x3e778e(0x153))['value']=taxaMaquininha*0x64,document[_0x3e778e(0x14b)]('frete_fixo')[_0x3e778e(0x158)]=freteFixo,document['getElementById']('custo_fixo')[_0x3e778e(0x158)]=custoFixo,document[_0x3e778e(0x14b)]('calcular-button')[_0x3e778e(0x156)](_0x3e778e(0x148),function(){var _0x59b9f8=_0x3e778e;valorCusto=parseFloat(document['getElementById']('valor_custo')[_0x59b9f8(0x158)]),margemLucro=parseFloat(document[_0x59b9f8(0x14b)](_0x59b9f8(0x15b))[_0x59b9f8(0x158)])/0x64,notaFiscal=parseFloat(document[_0x59b9f8(0x14b)](_0x59b9f8(0x149))['value'])/0x64,comissaoLoja=parseFloat(document[_0x59b9f8(0x14b)](_0x59b9f8(0x151))[_0x59b9f8(0x158)])/0x64,taxaMaquininha=parseFloat(document[_0x59b9f8(0x14b)]('taxa_maquininha')[_0x59b9f8(0x158)])/0x64,freteFixo=parseFloat(document['getElementById'](_0x59b9f8(0x155))[_0x59b9f8(0x158)]),custoFixo=parseFloat(document['getElementById'](_0x59b9f8(0x15e))[_0x59b9f8(0x158)]);var _0x141864=valorCusto+valorCusto*margemLucro,_0x728fee=valorCusto*margemLucro,_0x387ec1=0x0,_0x2ed267=_0x141864;while(!![]){var _0x434abb=_0x2ed267-_0x2ed267*(notaFiscal+comissaoLoja+taxaMaquininha)-(freteFixo+custoFixo);if(Math[_0x59b9f8(0x147)](_0x434abb*0x64)===Math[_0x59b9f8(0x147)](_0x141864*0x64)||_0x387ec1===0x3e8)break;else{if(Math['round'](_0x434abb*0x64)<Math[_0x59b9f8(0x147)](_0x141864*0x64)||_0x387ec1===0x3e8)_0x2ed267+=_0x434abb%_0x141864,_0x387ec1++;else(Math[_0x59b9f8(0x147)](_0x434abb*0x64)>Math[_0x59b9f8(0x147)](_0x141864*0x64)||_0x387ec1===0x3e8)&&(_0x2ed267-=_0x434abb%_0x141864,_0x387ec1++);}}localStorage['setItem']('valorCusto',valorCusto),localStorage[_0x59b9f8(0x14a)](_0x59b9f8(0x161),margemLucro),localStorage['setItem']('notaFiscal',notaFiscal),localStorage[_0x59b9f8(0x14a)](_0x59b9f8(0x160),comissaoLoja),localStorage[_0x59b9f8(0x14a)](_0x59b9f8(0x159),taxaMaquininha),localStorage[_0x59b9f8(0x14a)](_0x59b9f8(0x154),freteFixo),localStorage['setItem'](_0x59b9f8(0x165),custoFixo),document['getElementById'](_0x59b9f8(0x15c))[_0x59b9f8(0x157)]=_0x59b9f8(0x164)+_0x2ed267[_0x59b9f8(0x14c)](0x2),document['getElementById']('lucro_liquido')[_0x59b9f8(0x157)]=_0x59b9f8(0x164)+_0x728fee[_0x59b9f8(0x14c)](0x2);});
+// Recuperar as variáveis do armazenamento local
+var valorCusto = parseFloat(localStorage.getItem('valorCusto')) || "100,00";
+var margemLucro = parseFloat(localStorage.getItem('margemLucro')) || "30";
+var notaFiscal = parseFloat(localStorage.getItem('notaFiscal')) || "10";
+var comissaoLoja = parseFloat(localStorage.getItem('comissaoLoja')) || "19";
+var taxaMaquininha = parseFloat(localStorage.getItem('taxaMaquininha')) || "0";
+var freteFixo = parseFloat(localStorage.getItem('freteFixo')) || "18,45";
+var custoFixo = parseFloat(localStorage.getItem('custoFixo')) || "1,50";
+
+// Preencher os campos com as informações recuperadas
+document.getElementById('valor_custo').value = valorCusto;
+document.getElementById('margem_lucro').value = margemLucro * 100;
+document.getElementById('nota_fiscal').value = notaFiscal * 100;
+document.getElementById('comissao_loja').value = comissaoLoja * 100;
+document.getElementById('taxa_maquininha').value = taxaMaquininha * 100;
+document.getElementById('frete_fixo').value = freteFixo;
+document.getElementById('custo_fixo').value = custoFixo;
+
+document.getElementById('calcular-button').addEventListener('click', function () {
+  // Atualizar as variáveis com os novos valores
+  valorCusto = parseFloat(document.getElementById('valor_custo').value);
+  margemLucro = parseFloat(document.getElementById('margem_lucro').value) / 100;
+  notaFiscal = parseFloat(document.getElementById('nota_fiscal').value) / 100;
+  comissaoLoja = parseFloat(document.getElementById('comissao_loja').value) / 100;
+  taxaMaquininha = parseFloat(document.getElementById('taxa_maquininha').value) / 100;
+  freteFixo = parseFloat(document.getElementById('frete_fixo').value);
+  custoFixo = parseFloat(document.getElementById('custo_fixo').value);
+
+  var lucroBruto = valorCusto + (valorCusto * margemLucro);
+  var lucroLiquido = valorCusto * margemLucro;
+
+  var maxTentativas = 0;
+  var valorFinal = lucroBruto;
+
+  while (true) {
+    var metaLucro = valorFinal - (valorFinal * (notaFiscal + comissaoLoja + taxaMaquininha)) - (freteFixo + custoFixo);
+
+    if (Math.round(metaLucro * 100) === Math.round(lucroBruto * 100) || maxTentativas === 1000) {
+      break;
+    } else if (Math.round(metaLucro * 100) < Math.round(lucroBruto * 100) || maxTentativas === 1000) {
+      valorFinal += metaLucro % lucroBruto;
+      maxTentativas++;
+    } else if (Math.round(metaLucro * 100) > Math.round(lucroBruto * 100) || maxTentativas === 1000) {
+      valorFinal -= metaLucro % lucroBruto;
+      maxTentativas++;
+    }
+  }
+
+  // Salvar as variáveis no armazenamento local
+  localStorage.setItem('valorCusto', valorCusto);
+  localStorage.setItem('margemLucro', margemLucro);
+  localStorage.setItem('notaFiscal', notaFiscal);
+  localStorage.setItem('comissaoLoja', comissaoLoja);
+  localStorage.setItem('taxaMaquininha', taxaMaquininha);
+  localStorage.setItem('freteFixo', freteFixo);
+  localStorage.setItem('custoFixo', custoFixo);
+
+  document.getElementById('valor_venda').textContent = 'R$ ' + valorFinal.toFixed(2);
+  document.getElementById('lucro_liquido').textContent = 'R$ ' + lucroLiquido.toFixed(2);
+});
